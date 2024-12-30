@@ -142,16 +142,17 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 display: flex;
 justify-content: center;
 flex-direction: row;
+flex-wrap: wrap;
 }
 #descontos{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 #tipos-de-roupas{
     display: flex;
     justify-content: start;
-    
     background-color: rgba(216, 227, 242, 1);
     flex-wrap: wrap;
     border-radius: 6px;
