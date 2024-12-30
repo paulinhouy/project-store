@@ -1,0 +1,124 @@
+body{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+header{
+   background-color:rgba(255, 255, 255, 1);
+}
+#section-header{
+display: flex;
+justify-content: space-between;
+height: 6rem;
+padding-top: 1.5rem;
+padding-bottom: 1.5rem;
+padding-left: 3rem;
+padding-right: 3rem;
+}
+#logo{
+    width: 12rem;
+    height: 2rem;
+}
+#buttons-menu{
+position: relative;
+top: 10px;
+}
+#menu{
+color: rgba(71, 71, 71, 1);
+padding-right:2rem ;
+}
+#menu:hover{
+    text-decoration: underline;
+}
+#menuenter{
+    text-decoration: none;
+    color:white;
+    background-color: rgba(201, 32, 113, 1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 6px;
+}
+#carrinho-link{
+    position: relative;
+    right: 4rem;
+}
+#barra-de-pequisa{
+    color:rgba(71, 71, 71, 1);
+    opacity: 60%;
+}
+#barra-pesquisa{
+    height: 2.5rem;
+    width: 30rem;
+  opacity: 0.8;
+    position: relative;
+    bottom: 8px;
+    left: 5px;
+    color: rgba(71, 71, 71, 1);
+}
+#btn-lupa{
+    height: 2.8rem;
+    width: 3rem;
+    position: relative;
+    bottom: 3px;
+    color: rgba(71, 71, 71, 1);
+}
+#categorias-header{
+display: flex;
+justify-content: flex-start;
+padding-left: 2rem;
+}
+#categorias{
+    padding-left: 1rem;
+    text-decoration: none;
+    color: rgba(71, 71, 71, 1);
+}
+#categorias:hover{
+    text-decoration: underline;
+}
+#categoriahome{
+    color: rgba(201, 32, 113, 1);
+    text-shadow: 1px 1px 1px 10px;
+}
+#oferta-completa{
+    background-color: rgba(245, 245, 245, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+#main-section{
+    
+padding-left: 5rem;
+
+
+
+
+}
+#texts-main{
+
+}
+#ofertas-personalizadas{
+
+}
+#Queima-de-estoque{
+font-size: 70px;
+}
+#descricao-queima{
+
+}
+#link-oferta{
+
+}
+#imagem-tenis{
+    display: flex;
+    align-items: center;
+
+}
+#img-sapato{
+    width: 50rem;
+    height: 40rem;
+   
+
+}
