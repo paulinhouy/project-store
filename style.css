@@ -133,16 +133,16 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #colecao-em-destaque{
   background-color:rgba(255, 255, 255, 1);;
- 
-  flex-direction: row;
-  
-
+padding-left: 150px;
+font-family: sans-serif;
+color: rgba(71, 71, 71, 1);
 }
 #colecao{
 display: flex;
 justify-content: center;
 flex-direction: row;
 flex-wrap: wrap;
+padding-bottom: 3rem;
 }
 #descontos{
     display: flex;
@@ -170,7 +170,6 @@ background-color: rgba(231, 255, 134, 1);
 padding: 0.4rem;
 border-radius: 10px;
 
-
 }
 #name-shirt{
     margin-top: 0;
@@ -179,6 +178,7 @@ font-size: 3rem;
 flex-wrap: wrap;
 padding-bottom: 10px;
 z-index: 1;
+font-family: sans-serif;
 }
 #img-shirt{
 display: flex;
@@ -188,6 +188,24 @@ position: relative;
 bottom: 11rem;
 left: 6.8rem;
 z-index: 0;
+}
+#img-calcado{
+    display: flex;
+    width: 13rem;
+    margin: 0%;
+    position: relative;
+    bottom: 11.5rem;
+    left: 6.8rem;
+    z-index: 0;
+}
+#img-fone{
+    display: flex;
+    width: 13rem;
+    margin: 0%;
+    position: relative;
+    bottom: 12.5rem;
+    left: 6.8rem;
+    z-index: 0;
 }
 #comprar{
     background-color: rgba(245, 245, 245, 1);
@@ -201,5 +219,55 @@ margin-top: 0;
 text-decoration: none;
 margin: 0%;
 z-index: 1;
+font-family: sans-serif;
 }
+#produtos{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+#valor-desconto{
+    margin: 0;
+   position: relative;
+   top: 1rem;
+   left: 1em;
+   background-color: rgba(231, 255, 134, 1);
+   width: 5vw;
+   padding: 7px;
+   border-radius: 15px;
+}
+#produto-individual{
+    background-color: rgb(249, 247, 247);
+    padding: 1rem;
+    border: 1px solid black;
+
+}
+#sapato{
+background-color:rgb(241, 239, 239);
+width:250px;
+height: 230px;
+border: 1px solid black;
+margin-top: 0%;
+
+}
+#link-sapato{
+
+}
+#img-calcados{
+width: 15rem;
+position: relative;
+right: 1rem;
+
+}
+#enquadramento-sapato{
+    display: flex;
+    justify-content: center;
+}
+#descricao-produto{
+
+}
+#price-produto{
+
+}
+
 
