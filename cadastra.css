@@ -18,7 +18,7 @@ header{
 }
 #main{
     height: 700px;
-    background: linear-gradient( to bottom, rgb(242, 164, 242), rgba(255, 255, 255, 1));
+    background: linear-gradient( to bottom, rgb(148, 148, 211), rgba(255, 255, 255, 1));
     display: flex;
     justify-content: space-around;
     align-items: center;
