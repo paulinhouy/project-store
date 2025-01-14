@@ -355,6 +355,61 @@ padding-right: 5rem
 
 
 }
+#footer-store{
+background-color: rgba(31, 31, 31, 1);
+display: flex;
+
+height: 400px;
+width: 100%;
+color: rgba(255, 255, 255, 1);
+margin-bottom: 0;
+}
+#final-pag-principal{
+    max-width: 30%;
+    margin-left: 5rem;
+    margin-right: 4rem;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    margin-bottom: 0;
+   
+}
+#digital-store{
+font-size: 50px;
+}
+#descricao-digital{
+
+}
+#final-pag-principal{
+padding-top: 5rem;
+
+
+}
+#informacao{
+
+}
+#links-final{
+
+}
+footer{
+   margin: 0;
+    display: flex;
+    justify-content: center;
+
+   background-color: rgba(31, 31, 31, 1);
+}
+#fotter-digital{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid rgba(255, 255, 255, 1);
+    width: 80%;
+    margin: auto;
+    padding-top: 1rem;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 1);
+}
+#footer{
+    margin-top: 0;
+}
 
 
 

@@ -1,0 +1,159 @@
+body{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+header{
+    background-color:rgba(255, 255, 255, 1);
+    height: 100px;
+    
+}
+#logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    padding-left: 2rem;
+}
+#main{
+    height: 700px;
+    background: linear-gradient( to bottom, rgb(242, 164, 242), rgba(255, 255, 255, 1));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+form{
+    background-color:rgba(255, 255, 255, 1) ;
+    height: auto;
+    width: 30%;
+    border-radius: 7px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+legend{
+    font-size: 30px;
+}
+#esquece-senha-main{
+    color: rgba(71, 71, 71, 1);
+    padding-bottom: 1rem;
+
+}
+#entre{
+    color: rgba(71, 71, 71, 1);
+}
+
+#email,button{
+padding: 1rem;
+    border: 2px solid transparent;
+
+}
+button{
+    background-color: rgba(201, 32, 113, 1);
+    border-radius: 7px;
+    color: white;
+    padding-top:1rem;
+}
+button{
+    margin-top: 1rem;
+}
+#outras-formas-entrar{
+    display: flex;
+    margin: auto;
+  color: rgba(71, 71, 71, 1); ;
+}
+.redes{
+    width: 20px;
+    height: 20px;
+    padding-left: 1rem;
+    margin: auto;
+}
+#img-boots{
+    width: 22rem;
+}
+.sapato1{
+position: relative;
+bottom: 6rem;
+}
+.sapato2{
+    position: relative;
+    top: 6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer-store{
+    background-color: rgba(31, 31, 31, 1);
+    display: flex;
+    
+    height: 400px;
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 0;
+    }
+    #final-pag-principal{
+        max-width: 30%;
+        margin-left: 5rem;
+        margin-right: 4rem;
+        flex-wrap: wrap;
+        font-family: sans-serif;
+        margin-bottom: 0;
+       
+    }
+    #digital-store{
+    font-size: 50px;
+    }
+    #descricao-digital{
+    
+    }
+    #final-pag-principal{
+    padding-top: 5rem;
+    
+    
+    }
+    #informacao{
+    
+    }
+    #links-final{
+    
+    }
+    footer{
+       margin: 0;
+        display: flex;
+        justify-content: center;
+    
+       background-color: rgba(31, 31, 31, 1);
+    }
+    #fotter-digital{
+        display: flex;
+        justify-content: center;
+        border-top: 2px solid rgba(255, 255, 255, 1);
+        width: 80%;
+        margin: auto;
+        padding-top: 1rem;
+        font-family: sans-serif;
+        color: rgba(255, 255, 255, 1);
+    }
