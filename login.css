@@ -47,11 +47,18 @@ legend{
     color: rgba(71, 71, 71, 1);
 }
 
-#email,button{
+input,button{
 padding: 1rem;
     border: 2px solid transparent;
 
+
+
 }
+#esqueci-senha{
+    font-size: 12px;
+    color: rgba(71, 71, 71, 1);
+}
+
 button{
     background-color: rgba(201, 32, 113, 1);
     border-radius: 7px;
@@ -83,28 +90,6 @@ bottom: 6rem;
     position: relative;
     top: 6rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #footer-store{
     background-color: rgba(31, 31, 31, 1);
     display: flex;
