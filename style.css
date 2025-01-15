@@ -72,6 +72,9 @@ padding-left: 2rem;
     color: rgba(71, 71, 71, 1);
     padding-bottom: 2rem;
 }
+.search-bar{
+    border-radius: 5px;
+}
 #categorias:hover{
     text-decoration: underline;
 }
@@ -96,6 +99,7 @@ margin-bottom: 0;
 color: rgba(246, 170, 28, 1);
 letter-spacing: 0.75;
 font-size: 1.3rem;
+text-shadow: 1px 1px 1px black;
 }
 #Queima-de-estoque{
 font-size: 5rem;
