@@ -436,7 +436,7 @@ footer{
     }
     #barra-pesquisa{
         width: 26vw;
-        padding-right: 1em;
+        margin-right: 1em;
         height: 2em;
         display: flex;
         justify-content: end;    
