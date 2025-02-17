@@ -12,8 +12,8 @@ min-width: auto;
 width: 90vw;
 display: flex;
 justify-content: space-between;
-padding-top: 1em;
-padding-bottom: 1em;
+padding-top: 1.5em;
+padding-bottom: 1.5em;
 padding-left: 2em;
 padding-right: 2em;
 }
