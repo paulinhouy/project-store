@@ -415,7 +415,7 @@ footer{
         font-size: 1rem;
     }
     header{
-        width: 100%;
+      
         display: flex;
         justify-content: center;    
         align-items: center;
@@ -425,16 +425,18 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 90%;
+        min-height: 95%;
        
         margin:0 ;
     }
     #logo{
         width: 50%;
         height: 30px;
+        padding-right: 1em;
     }
     #barra-pesquisa{
-        width: 30vw;
+        width: 26vw;
+        padding-right: 1em;
         height: 2em;
         display: flex;
         justify-content: end;    
