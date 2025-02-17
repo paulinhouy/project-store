@@ -9,13 +9,13 @@ header{
 min-width: auto;
 }
 #section-header{
+width: 90vw;
 display: flex;
 justify-content: space-between;
-height: auto;
-padding-top: 1.5em;
-padding-bottom: 1.5em;
-padding-left: 3em;
-padding-right: 3em;
+padding-top: 1em;
+padding-bottom: 1em;
+padding-left: 2em;
+padding-right: 2em;
 }
 #logo{
     width: 16rem;
@@ -423,36 +423,37 @@ footer{
     }
     #section-header{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        min-height: 95%;
+        
        
         margin:0 ;
     }
     #logo{
-        width: 50%;
+        width: 25%;
         height: 30px;
         padding-right: 1em;
+        
     }
     #barra-pesquisa{
-        width: 26vw;
+        width: 30vw;
         margin-right: 1em;
         height: 2em;
         display: flex;
-        justify-content: end;    
+        justify-content:center;    
             align-items: center;
     }
     #menuenter{
         width: auto;
         height: auto;
-        padding: .3em;
+        padding: .3em 1em;
     
     
     }
     #buttons-menu{
         display: flex;
-        justify-content: space-between;
-        align-items: start;
+justify-content: center;
+align-items: center;
        font-size: 1em;
        width: 30%;
    
