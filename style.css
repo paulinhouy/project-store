@@ -6,15 +6,16 @@ body{
 }
 header{
    background-color:rgba(255, 255, 255, 1);
+min-width: auto;
 }
 #section-header{
 display: flex;
 justify-content: space-between;
-height: 6rem;
-padding-top: 1.5rem;
-padding-bottom: 1.5rem;
-padding-left: 3rem;
-padding-right: 3rem;
+height: auto;
+padding-top: 1.5em;
+padding-bottom: 1.5em;
+padding-left: 3em;
+padding-right: 3em;
 }
 #logo{
     width: 16rem;
@@ -44,21 +45,28 @@ padding-right:2rem ;
 #barra-de-pequisa{
     color:rgba(71, 71, 71, 1);
     opacity: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 #barra-pesquisa{
     height: 2.5rem;
     width: 30rem;
   opacity: 0.8;
-    position: relative;
-    bottom: 8px;
-    left: 5px;
+ 
     color: rgba(71, 71, 71, 1);
 }
 #btn-lupa{
-    height: 2.8rem;
+    height: 2.9rem;
     width: 3rem;
     position: relative;
-    bottom: 3px;
+    top: 6px;
+    right: 4px;
+ 
+
+    
     color: rgba(71, 71, 71, 1);
 }
 #categorias-header{
@@ -399,6 +407,60 @@ footer{
 #footer{
     margin-top: 0;
 }
-
+@media  screen and (max-width:35em) {
+#img-sapato,#imgcarrinho,#btn-lupa{
+ display: none;
+}
+    #ofertas-personalizadas{
+        font-size: 1rem;
+    }
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: center;    
+        align-items: center;
+        flex-direction: column;
+    }
+    #section-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 90%;
+       
+        margin:0 ;
+    }
+    #logo{
+        width: 50%;
+        height: 30px;
+    }
+    #barra-pesquisa{
+        width: 30vw;
+        height: 2em;
+        display: flex;
+        justify-content: end;    
+            align-items: center;
+    }
+    #menuenter{
+        width: auto;
+        height: auto;
+        padding: .3em;
+    
+    
+    }
+    #buttons-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+       font-size: 1em;
+       width: 30%;
+   
+    }
+    #menu{
+   
+      text-align: center;
+      padding-left: .5em;
+  
+    }
+}
 
 
